@@ -1,0 +1,169 @@
+Loading Dataset
+done loading
+<type 'numpy.ndarray'>
+255.0 0.0
+Data shape: (1, 1, 160, 250)
+computing DoG maps ...
+args
+(<TensorType(float32, scalar)>, <TensorType(float32, scalar)>, <TensorType(float32, 4D)>, Elemwise{switch,no_inplace}.0)
+snn_autonet .create_net> building net...
+attributes :  ('snn_conv1', <class '__main__.snn_convLayer'>, [False, 4, 10, 5])
+layer:  snn_conv1
+attributes :  ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2])
+layer:  bu_pool1
+attributes :  ('snn_conv2', <class '__main__.snn_convLayer'>, [False, 20, 60, 15])
+layer:  snn_conv2
+attributes :  ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2])
+layer:  bu_pool1
+attributes :  ('snn_conv3', <class '__main__.snn_convLayer'>, [False, 10, 2, 5])
+layer:  snn_conv3
+done.
+tmp_layers: [('snn_conv1', <class '__main__.snn_convLayer'>, [True, 4, 10, 5])]
+Creating:  ['snn_conv1']
+snn_autonet .create_net> building net...
+attributes :  ('snn_conv1', <class '__main__.snn_convLayer'>, [True, 4, 10, 5])
+layer:  snn_conv1
+done.
+INSIDE: copy_nets
+[<lasagne.layers.input.InputLayer object at 0x7f0735af7450>, <__main__.snn_convLayer object at 0x7f0735b21050>]
+(10, 2, 5, 5) (10, 2, 5, 5)
+(10,) (10,)
+Number of variables copied: 2
+Number of layers copied: 2
+2 6 2
+zWARNING: NOT ALL LAYERS FROM net1 COPIED TO net2.
+Building snn...
+Shape.0
+[Alloc.0, Alloc.0, Alloc.0]
+set output info :
+[Alloc.0, Alloc.0, Alloc.0]
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+5
+args
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+stdp enabled
+MAKENODE:  Shape.0 Shape.0 Shape.0
+fn returning : 
+Elemwise{add,no_inplace}.0
+Reshape{4}.0
+Elemwise{add,no_inplace}.0
+IN PREPARE NODE
+
+*********
+Alloc.0
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+V1
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+compiled
+tmp_layers: [('snn_conv1', <class '__main__.snn_convLayer'>, [False, 4, 10, 5]), ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2]), ('snn_conv2', <class '__main__.snn_convLayer'>, [True, 20, 60, 15])]
+Creating:  ['snn_conv1', 'bu_pool1', 'snn_conv2']
+snn_autonet .create_net> building net...
+attributes :  ('snn_conv1', <class '__main__.snn_convLayer'>, [False, 4, 10, 5])
+layer:  snn_conv1
+attributes :  ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2])
+layer:  bu_pool1
+attributes :  ('snn_conv2', <class '__main__.snn_convLayer'>, [True, 20, 60, 15])
+layer:  snn_conv2
+done.
+INSIDE: copy_nets
+[<lasagne.layers.input.InputLayer object at 0x7f0735af7450>, <__main__.snn_convLayer object at 0x7f0735562f50>, <lasagne.layers.pool.MaxPool2DLayer object at 0x7f072dc70a10>, <__main__.snn_convLayer object at 0x7f072dc70c10>]
+(10, 2, 5, 5) (10, 2, 5, 5)
+(10,) (10,)
+(60, 10, 15, 15) (60, 10, 15, 15)
+(60,) (60,)
+Number of variables copied: 4
+Number of layers copied: 4
+4 6 4
+zWARNING: NOT ALL LAYERS FROM net1 COPIED TO net2.
+Building snn...
+Shape.0
+[Alloc.0, Alloc.0, Alloc.0, Alloc.0]
+set output info :
+[Alloc.0, Alloc.0, Alloc.0, Alloc.0]
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+6
+args
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+stdp enabled
+MAKENODE:  Shape.0 Shape.0 Shape.0
+fn returning : 
+Elemwise{add,no_inplace}.0
+Elemwise{add,no_inplace}.0
+Reshape{4}.0
+Elemwise{add,no_inplace}.0
+IN PREPARE NODE
+
+*********
+Alloc.0
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+V1
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+compiled
+tmp_layers: [('snn_conv1', <class '__main__.snn_convLayer'>, [False, 4, 10, 5]), ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2]), ('snn_conv2', <class '__main__.snn_convLayer'>, [False, 20, 60, 15]), ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2]), ('snn_conv3', <class '__main__.snn_convLayer'>, [True, 10, 2, 5])]
+Creating:  ['snn_conv1', 'bu_pool1', 'snn_conv2', 'bu_pool1', 'snn_conv3']
+snn_autonet .create_net> building net...
+attributes :  ('snn_conv1', <class '__main__.snn_convLayer'>, [False, 4, 10, 5])
+layer:  snn_conv1
+attributes :  ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2])
+layer:  bu_pool1
+attributes :  ('snn_conv2', <class '__main__.snn_convLayer'>, [False, 20, 60, 15])
+layer:  snn_conv2
+attributes :  ('bu_pool1', <class 'lasagne.layers.pool.MaxPool2DLayer'>, [2])
+layer:  bu_pool1
+attributes :  ('snn_conv3', <class '__main__.snn_convLayer'>, [True, 10, 2, 5])
+layer:  snn_conv3
+done.
+INSIDE: copy_nets
+[<lasagne.layers.input.InputLayer object at 0x7f0735af7450>, <__main__.snn_convLayer object at 0x7f072df08ed0>, <lasagne.layers.pool.MaxPool2DLayer object at 0x7f072a95ed90>, <__main__.snn_convLayer object at 0x7f072a95edd0>, <lasagne.layers.pool.MaxPool2DLayer object at 0x7f072a95efd0>, <__main__.snn_convLayer object at 0x7f072a97c250>]
+(10, 2, 5, 5) (10, 2, 5, 5)
+(10,) (10,)
+(60, 10, 15, 15) (60, 10, 15, 15)
+(60,) (60,)
+(2, 60, 5, 5) (2, 60, 5, 5)
+(2,) (2,)
+Number of variables copied: 6
+Number of layers copied: 6
+6 6 6
+Building snn...
+Shape.0
+[Alloc.0, Alloc.0, Alloc.0, Alloc.0, Alloc.0]
+set output info :
+[Alloc.0, Alloc.0, Alloc.0, Alloc.0, Alloc.0]
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+7
+args
+[<TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, (True, False, False, False))>, <TensorType(float32, scalar)>]
+stdp enabled
+MAKENODE:  Shape.0 Shape.0 Shape.0
+fn returning : 
+Elemwise{add,no_inplace}.0
+Elemwise{add,no_inplace}.0
+Elemwise{add,no_inplace}.0
+Reshape{4}.0
+Elemwise{add,no_inplace}.0
+IN PREPARE NODE
+
+*********
+Alloc.0
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+V1
+IN PREPARE NODE
+
+IN PREPARE NODE
+
+compiled

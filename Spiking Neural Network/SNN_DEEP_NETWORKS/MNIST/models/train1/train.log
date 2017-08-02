@@ -1,0 +1,146 @@
+2017-07-04 15:40:53.006943: Learning rates LR: 0.004000 
+2017-07-04 15:40:53.007014: ENTERING STAGE : 1
+2017-07-04 15:44:52.829053: Iter: 2000 [0], stage_id: 1, delta_weight_mean : 5.84257432e-05
+2017-07-04 15:44:52.829129: plotting graph
+2017-07-04 15:49:01.982979: Iter: 4000 [0], stage_id: 1, delta_weight_mean : 6.32530355e-05
+2017-07-04 15:49:01.983056: plotting graph
+2017-07-04 15:53:19.493237: Iter: 6000 [0], stage_id: 1, delta_weight_mean : 6.50908405e-05
+2017-07-04 15:53:19.493358: plotting graph
+2017-07-04 15:57:36.500018: Iter: 8000 [0], stage_id: 1, delta_weight_mean : 6.38161655e-05
+2017-07-04 15:57:36.500081: plotting graph
+2017-07-04 16:01:50.355832: Iter: 10000 [0], stage_id: 1, delta_weight_mean : 6.04204251e-05
+2017-07-04 16:01:50.356024: plotting graph
+2017-07-04 16:06:18.427155: Iter: 12000 [0], stage_id: 1, delta_weight_mean : 5.59024375e-05
+2017-07-04 16:06:18.427229: plotting graph
+2017-07-04 16:09:41.950933: Plotting weights...
+2017-07-04 16:15:11.519030: Iter: 14000 [1], stage_id: 1, delta_weight_mean : 1.98710750e-05
+2017-07-04 16:15:11.519110: plotting graph
+2017-07-04 16:18:23.654146: Iter: 16000 [1], stage_id: 1, delta_weight_mean : 1.64606990e-05
+2017-07-04 16:18:23.654283: plotting graph
+2017-07-04 16:22:13.228759: Iter: 18000 [1], stage_id: 1, delta_weight_mean : 1.41096343e-05
+2017-07-04 16:22:13.228842: plotting graph
+2017-07-04 16:26:39.860054: Iter: 20000 [1], stage_id: 1, delta_weight_mean : 1.22995134e-05
+2017-07-04 16:26:39.860134: plotting graph
+2017-07-04 16:31:11.213530: Iter: 22000 [1], stage_id: 1, delta_weight_mean : 1.08803933e-05
+2017-07-04 16:31:11.213606: plotting graph
+2017-07-04 16:35:46.127924: Iter: 24000 [1], stage_id: 1, delta_weight_mean : 9.76028059e-06
+2017-07-04 16:35:46.128014: plotting graph
+2017-07-04 16:40:19.593700: Iter: 26000 [1], stage_id: 1, delta_weight_mean : 8.82805398e-06
+2017-07-04 16:40:19.593812: plotting graph
+2017-07-04 16:42:36.501703: Plotting weights...
+2017-07-04 16:49:22.338191: Iter: 28000 [2], stage_id: 1, delta_weight_mean : 3.09070879e-06
+2017-07-04 16:49:22.338312: plotting graph
+2017-07-04 16:53:52.800729: Iter: 30000 [2], stage_id: 1, delta_weight_mean : 2.89391164e-06
+2017-07-04 16:53:52.800808: plotting graph
+2017-07-04 16:57:56.719886: Iter: 32000 [2], stage_id: 1, delta_weight_mean : 2.70047371e-06
+2017-07-04 16:57:56.719946: plotting graph
+2017-07-04 17:02:24.181320: Iter: 34000 [2], stage_id: 1, delta_weight_mean : 2.51829329e-06
+2017-07-04 17:02:24.181405: plotting graph
+2017-07-04 17:07:02.365588: Iter: 36000 [2], stage_id: 1, delta_weight_mean : 2.36307392e-06
+2017-07-04 17:07:02.365670: plotting graph
+2017-07-04 17:11:31.890551: Iter: 38000 [2], stage_id: 1, delta_weight_mean : 2.23537472e-06
+2017-07-04 17:11:31.890681: plotting graph
+2017-07-04 17:15:54.167922: Iter: 40000 [2], stage_id: 1, delta_weight_mean : 2.12390501e-06
+2017-07-04 17:15:54.168080: plotting graph
+2017-07-04 17:16:56.062875: Plotting weights...
+2017-07-04 17:24:11.328580: Iter: 42000 [3], stage_id: 1, delta_weight_mean : 1.32785703e-06
+2017-07-04 17:24:11.328662: plotting graph
+2017-07-04 17:27:05.040256: Iter: 44000 [3], stage_id: 1, delta_weight_mean : 1.27443809e-06
+2017-07-04 17:27:05.040337: plotting graph
+2017-07-04 17:29:51.538985: Iter: 46000 [3], stage_id: 1, delta_weight_mean : 1.22223719e-06
+2017-07-04 17:29:51.539062: plotting graph
+2017-07-04 17:32:29.787279: Iter: 48000 [3], stage_id: 1, delta_weight_mean : 1.17651371e-06
+2017-07-04 17:32:29.787358: plotting graph
+2017-07-04 17:36:52.076650: Iter: 50000 [3], stage_id: 1, delta_weight_mean : 1.13460476e-06
+2017-07-04 17:36:52.076734: plotting graph
+2017-07-04 17:41:02.017906: Iter: 52000 [3], stage_id: 1, delta_weight_mean : 1.09557436e-06
+2017-07-04 17:41:02.017986: plotting graph
+2017-07-04 17:45:14.472785: Iter: 54000 [3], stage_id: 1, delta_weight_mean : 1.05995628e-06
+2017-07-04 17:45:14.472858: plotting graph
+2017-07-04 17:45:14.678886: Plotting weights...
+2017-07-04 17:54:28.297055: Iter: 56000 [4], stage_id: 1, delta_weight_mean : 8.02091165e-07
+2017-07-04 17:54:28.297140: plotting graph
+2017-07-04 17:58:52.631155: Iter: 58000 [4], stage_id: 1, delta_weight_mean : 7.77683908e-07
+2017-07-04 17:58:52.631260: plotting graph
+2017-07-04 18:03:22.628872: Iter: 60000 [4], stage_id: 1, delta_weight_mean : 7.56164184e-07
+2017-07-04 18:03:22.628954: plotting graph
+2017-07-04 18:08:00.078014: Iter: 62000 [4], stage_id: 1, delta_weight_mean : 7.35892456e-07
+2017-07-04 18:08:00.078121: plotting graph
+2017-07-04 18:12:32.945993: Iter: 64000 [4], stage_id: 1, delta_weight_mean : 7.16005957e-07
+2017-07-04 18:12:32.946071: plotting graph
+2017-07-04 18:17:13.407457: Iter: 66000 [4], stage_id: 1, delta_weight_mean : 7.00932048e-07
+2017-07-04 18:17:13.407536: plotting graph
+2017-07-04 18:20:46.768979: Plotting weights...
+2017-07-04 18:25:58.441731: Iter: 68000 [5], stage_id: 1, delta_weight_mean : 5.53530924e-07
+2017-07-04 18:25:58.441809: plotting graph
+2017-07-04 18:30:42.041439: Iter: 70000 [5], stage_id: 1, delta_weight_mean : 5.57741998e-07
+2017-07-04 18:30:42.041526: plotting graph
+2017-07-04 18:35:19.809063: Iter: 72000 [5], stage_id: 1, delta_weight_mean : 5.48762102e-07
+2017-07-04 18:35:19.809150: plotting graph
+2017-07-04 18:38:08.452598: Iter: 74000 [5], stage_id: 1, delta_weight_mean : 5.37178778e-07
+2017-07-04 18:38:08.452685: plotting graph
+2017-07-04 18:41:16.052489: Iter: 76000 [5], stage_id: 1, delta_weight_mean : 5.24877180e-07
+2017-07-04 18:41:16.052558: plotting graph
+2017-07-04 18:44:26.881543: Iter: 78000 [5], stage_id: 1, delta_weight_mean : 5.13722739e-07
+2017-07-04 18:44:26.881652: plotting graph
+2017-07-04 18:48:56.140591: Iter: 80000 [5], stage_id: 1, delta_weight_mean : 5.04477782e-07
+2017-07-04 18:48:56.140654: plotting graph
+2017-07-04 18:51:14.136826: Plotting weights...
+2017-07-04 18:58:12.529754: Iter: 82000 [6], stage_id: 1, delta_weight_mean : 4.36473982e-07
+2017-07-04 18:58:12.530375: plotting graph
+2017-07-04 19:02:43.980265: Iter: 84000 [6], stage_id: 1, delta_weight_mean : 4.28699565e-07
+2017-07-04 19:02:43.980369: plotting graph
+2017-07-04 19:07:19.083134: Iter: 86000 [6], stage_id: 1, delta_weight_mean : 4.21973454e-07
+2017-07-04 19:07:19.083214: plotting graph
+2017-07-04 19:11:51.893066: Iter: 88000 [6], stage_id: 1, delta_weight_mean : 4.12160176e-07
+2017-07-04 19:11:51.893143: plotting graph
+2017-07-04 19:16:22.649891: Iter: 90000 [6], stage_id: 1, delta_weight_mean : 4.03860753e-07
+2017-07-04 19:16:22.649955: plotting graph
+2017-07-04 19:20:49.647746: Iter: 92000 [6], stage_id: 1, delta_weight_mean : 3.96569220e-07
+2017-07-04 19:20:49.647865: plotting graph
+2017-07-04 19:25:13.757643: Iter: 94000 [6], stage_id: 1, delta_weight_mean : 3.91229605e-07
+2017-07-04 19:25:13.757710: plotting graph
+2017-07-04 19:26:20.707897: Plotting weights...
+2017-07-04 19:34:16.981138: Iter: 96000 [7], stage_id: 1, delta_weight_mean : 3.44745587e-07
+2017-07-04 19:34:16.981215: plotting graph
+2017-07-04 19:38:43.083022: Iter: 98000 [7], stage_id: 1, delta_weight_mean : 3.38251425e-07
+2017-07-04 19:38:43.083099: plotting graph
+2017-07-04 19:43:05.154361: Iter: 100000 [7], stage_id: 1, delta_weight_mean : 3.33233544e-07
+2017-07-04 19:43:05.154452: plotting graph
+2017-07-04 19:47:14.041228: Iter: 102000 [7], stage_id: 1, delta_weight_mean : 3.30012313e-07
+2017-07-04 19:47:14.041313: plotting graph
+2017-07-04 19:50:10.187865: Iter: 104000 [7], stage_id: 1, delta_weight_mean : 3.25843274e-07
+2017-07-04 19:50:10.187942: plotting graph
+2017-07-04 19:51:53.345588: Iter: 106000 [7], stage_id: 1, delta_weight_mean : 3.20756271e-07
+2017-07-04 19:51:53.345675: plotting graph
+2017-07-04 19:53:19.613400: Iter: 108000 [7], stage_id: 1, delta_weight_mean : 3.16569555e-07
+2017-07-04 19:53:19.613481: plotting graph
+2017-07-04 19:53:19.816899: Plotting weights...
+2017-07-04 20:02:18.045567: Iter: 110000 [8], stage_id: 1, delta_weight_mean : 2.80312662e-07
+2017-07-04 20:02:18.045685: plotting graph
+2017-07-04 20:06:49.019933: Iter: 112000 [8], stage_id: 1, delta_weight_mean : 2.80293563e-07
+2017-07-04 20:06:49.020014: plotting graph
+2017-07-04 20:11:25.613435: Iter: 114000 [8], stage_id: 1, delta_weight_mean : 2.75842552e-07
+2017-07-04 20:11:25.613549: plotting graph
+2017-07-04 20:15:57.719545: Iter: 116000 [8], stage_id: 1, delta_weight_mean : 2.71954832e-07
+2017-07-04 20:15:57.719610: plotting graph
+2017-07-04 20:20:29.300295: Iter: 118000 [8], stage_id: 1, delta_weight_mean : 2.69353961e-07
+2017-07-04 20:20:29.300376: plotting graph
+2017-07-04 20:25:01.952519: Iter: 120000 [8], stage_id: 1, delta_weight_mean : 2.66275919e-07
+2017-07-04 20:25:01.952564: plotting graph
+2017-07-04 20:28:10.476780: Plotting weights...
+2017-07-04 20:33:37.962496: Iter: 122000 [9], stage_id: 1, delta_weight_mean : 2.50528672e-07
+2017-07-04 20:33:37.962578: plotting graph
+2017-07-04 20:38:02.034478: Iter: 124000 [9], stage_id: 1, delta_weight_mean : 2.36134838e-07
+2017-07-04 20:38:02.034554: plotting graph
+2017-07-04 20:42:34.636292: Iter: 126000 [9], stage_id: 1, delta_weight_mean : 2.34262629e-07
+2017-07-04 20:42:34.636373: plotting graph
+2017-07-04 20:47:08.860599: Iter: 128000 [9], stage_id: 1, delta_weight_mean : 2.32097321e-07
+2017-07-04 20:47:08.860663: plotting graph
+2017-07-04 20:51:39.995577: Iter: 130000 [9], stage_id: 1, delta_weight_mean : 2.29596012e-07
+2017-07-04 20:51:39.995675: plotting graph
+2017-07-04 20:56:03.549935: Iter: 132000 [9], stage_id: 1, delta_weight_mean : 2.27763422e-07
+2017-07-04 20:56:03.550017: plotting graph
+2017-07-04 20:58:59.378539: Iter: 134000 [9], stage_id: 1, delta_weight_mean : 2.25413572e-07
+2017-07-04 20:58:59.378616: plotting graph
+2017-07-04 21:00:26.831354: Plotting weights...
